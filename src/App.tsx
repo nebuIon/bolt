@@ -3,100 +3,136 @@ import { motion } from 'framer-motion';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gradient-to-br from-pink-400 via-purple-500 to-blue-500">
+      {/* Navigation */}
+      <nav className="bg-white bg-opacity-10 backdrop-blur-md fixed w-full z-10">
+        <div className="container mx-auto px-6 py-4">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center">
+              <img src="https://i.postimg.cc/ncRNY8Yr/194-20250531164336.png" alt="Logo" className="h-12 w-12 mr-4" />
+              <span className="text-white text-2xl font-bold">Karim</span>
+            </div>
+            <div className="hidden md:flex space-x-8">
+              <a href="#services" className="text-white hover:text-blue-200 transition-colors">Services</a>
+              <a href="#websites" className="text-white hover:text-blue-200 transition-colors">Websites</a>
+              <a href="#monetization" className="text-white hover:text-blue-200 transition-colors">Monetization</a>
+              <a href="#design" className="text-white hover:text-blue-200 transition-colors">Design</a>
+              <a href="#audio" className="text-white hover:text-blue-200 transition-colors">Audio</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
       {/* Hero Section */}
-      <header className="bg-gradient-to-r from-purple-600 to-blue-600 text-white">
-        <div className="container mx-auto px-6 py-24">
+      <header className="pt-32 pb-20 text-white">
+        <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
+            className="text-center"
           >
-            <h1 className="text-5xl font-bold mb-4">Your Name</h1>
-            <p className="text-xl mb-8">Full Stack Developer</p>
-            <button className="bg-white text-purple-600 px-6 py-2 rounded-full font-semibold hover:bg-opacity-90 transition-colors">
+            <h1 className="text-5xl font-bold mb-4">Karim</h1>
+            <p className="text-2xl mb-8">What can I do for you?</p>
+            <a 
+              href="https://t.me/konagy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-colors inline-block"
+            >
               Contact Me
-            </button>
+            </a>
           </motion.div>
         </div>
       </header>
 
-      {/* Projects Section */}
-      <section className="py-20">
+      {/* Websites Section */}
+      <section id="websites" className="py-20 text-white">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12">My Projects</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Project Card */}
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              className="bg-white rounded-lg shadow-lg overflow-hidden"
-            >
-              <img
-                src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg"
-                alt="Project"
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Project Title</h3>
-                <p className="text-gray-600 mb-4">
-                  Brief description of the project and the technologies used.
-                </p>
-                <a
-                  href="#"
-                  className="text-purple-600 font-semibold hover:text-purple-700"
-                >
-                  Learn More →
-                </a>
-              </div>
-            </motion.div>
-          </div>
-        </div>
-      </section>
-
-      {/* Contact Section */}
-      <section className="bg-gray-100 py-20">
-        <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12">Get In Touch</h2>
-          <div className="max-w-lg mx-auto">
-            <div className="bg-white rounded-lg shadow-lg p-8">
-              <form>
-                <div className="mb-6">
-                  <label className="block text-gray-700 mb-2">Name</label>
-                  <input
-                    type="text"
-                    className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-purple-600"
-                  />
-                </div>
-                <div className="mb-6">
-                  <label className="block text-gray-700 mb-2">Email</label>
-                  <input
-                    type="email"
-                    className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-purple-600"
-                  />
-                </div>
-                <div className="mb-6">
-                  <label className="block text-gray-700 mb-2">Message</label>
-                  <textarea
-                    className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-purple-600"
-                    rows={4}
-                  ></textarea>
-                </div>
-                <button
-                  type="submit"
-                  className="w-full bg-purple-600 text-white py-2 rounded-lg hover:bg-purple-700 transition-colors"
-                >
-                  Send Message
-                </button>
-              </form>
+          <h2 className="text-3xl font-bold text-center mb-12">Websites</h2>
+          <div className="max-w-4xl mx-auto">
+            <p className="text-xl text-center mb-12 font-serif">
+              🌐 Разработка личных сайтов<br />
+              — Лендинги, интернет-магазины, портфолио, бизнес-сайты — под ключ<br />
+              — Адаптивный дизайн, удобная структура, быстрая загрузка<br />
+              — Размещение на GitHub Pages или по вашему хостингу
+            </p>
+            <div className="flex justify-center space-x-6">
+              <a 
+                href="https://nebuion.github.io/feyk-cofee/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white bg-opacity-20 hover:bg-opacity-30 px-6 py-3 rounded-lg transition-all transform hover:scale-105"
+              >
+                Coffee Shop Website
+              </a>
+              <a 
+                href="https://nebuion.github.io/feyk-magaz-krossy/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white bg-opacity-20 hover:bg-opacity-30 px-6 py-3 rounded-lg transition-all transform hover:scale-105"
+              >
+                Sneakers Store
+              </a>
             </div>
           </div>
         </div>
       </section>
 
+      {/* Monetization Section */}
+      <section id="monetization" className="py-20 text-white">
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl font-bold text-center mb-12">Monetization</h2>
+          <p className="text-xl text-center font-serif max-w-2xl mx-auto">
+            💰 Подключу монетизацию к вашим соцсетям или продам готовую!
+          </p>
+        </div>
+      </section>
+
+      {/* Design Section */}
+      <section id="design" className="py-20 text-white">
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl font-bold text-center mb-12">Design</h2>
+          <div className="max-w-4xl mx-auto">
+            <p className="text-xl text-center font-serif">
+              🎨 Личный стиль и бренд<br />
+              — Логотипы, оформление соцсетей и страниц<br />
+              — Дизайн товаров, обложек, баннеров, шапок<br /><br />
+              QR-коды<br />
+              — Генерация с вашими ссылками (сайт, соцсети, файлы)<br />
+              — Загружу фото, видео или аудио и создам QR на нужный контент
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Audio Section */}
+      <section id="audio" className="py-20 text-white">
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl font-bold text-center mb-12">Audio</h2>
+          <p className="text-xl text-center font-serif max-w-2xl mx-auto">
+            🎵 Создание песен и текстов<br />
+            — Напишу уникальный текст для вашей песни<br />
+            — Поставлю музыку на ваши слова и создам полноценную композицию
+          </p>
+        </div>
+      </section>
+
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-8">
+      <footer className="bg-black bg-opacity-30 text-white py-8">
         <div className="container mx-auto px-6 text-center">
-          <p>© 2025 Your Name. All rights reserved.</p>
+          <div className="flex justify-center items-center mb-4">
+            <img src="https://i.postimg.cc/ncRNY8Yr/194-20250531164336.png" alt="Logo" className="h-10 w-10" />
+          </div>
+          <p>© 2025 Karim. All rights reserved.</p>
+          <a 
+            href="https://t.me/konagy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-200 hover:text-blue-100 mt-2 inline-block"
+          >
+            Contact on Telegram
+          </a>
         </div>
       </footer>
     </div>
