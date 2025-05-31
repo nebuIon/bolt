@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-yellow-400 via-yellow-500 to-black">
       {/* Navigation */}
-      <nav className="bg-black bg-opacity-80 backdrop-blur-md fixed w-full z-10">
+      <nav className="bg-black fixed w-full z-10">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center">
@@ -47,7 +47,7 @@ function App() {
       </header>
 
       {/* Websites Section */}
-      <section id="websites" className="py-20 text-white bg-black bg-opacity-80">
+      <section id="websites" className="py-20 text-white bg-black">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-12">Websites</h2>
           <div className="max-w-4xl mx-auto">
@@ -80,7 +80,7 @@ function App() {
       </section>
 
       {/* Monetization Section */}
-      <section id="monetization" className="py-20 text-white bg-black bg-opacity-70">
+      <section id="monetization" className="py-20 text-white bg-black">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-12">Monetization</h2>
           <p className="text-xl text-center font-serif max-w-2xl mx-auto">
@@ -90,7 +90,7 @@ function App() {
       </section>
 
       {/* Design Section */}
-      <section id="design" className="py-20 text-white bg-black bg-opacity-80">
+      <section id="design" className="py-20 text-white bg-black">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-12">Design</h2>
           <div className="max-w-4xl mx-auto">
@@ -107,7 +107,7 @@ function App() {
       </section>
 
       {/* Audio Section */}
-      <section id="audio" className="py-20 text-white bg-black bg-opacity-70">
+      <section id="audio" className="py-20 text-white bg-black">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-12">Audio</h2>
           <p className="text-xl text-center font-serif max-w-2xl mx-auto">
