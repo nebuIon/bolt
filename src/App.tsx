@@ -47,7 +47,7 @@ function App() {
       </header>
 
       {/* Websites Section */}
-      <section id="websites" className="py-20 text-white">
+      <section id="websites" className="py-20 text-white bg-black bg-opacity-20 border-t border-b border-black border-opacity-30">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-12">Websites</h2>
           <div className="max-w-4xl mx-auto">
@@ -80,7 +80,7 @@ function App() {
       </section>
 
       {/* Monetization Section */}
-      <section id="monetization" className="py-20 text-white">
+      <section id="monetization" className="py-20 text-white bg-black bg-opacity-10 border-b border-black border-opacity-30">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-12">Monetization</h2>
           <p className="text-xl text-center font-serif max-w-2xl mx-auto">
@@ -90,7 +90,7 @@ function App() {
       </section>
 
       {/* Design Section */}
-      <section id="design" className="py-20 text-white">
+      <section id="design" className="py-20 text-white bg-black bg-opacity-20 border-b border-black border-opacity-30">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-12">Design</h2>
           <div className="max-w-4xl mx-auto">
@@ -107,7 +107,7 @@ function App() {
       </section>
 
       {/* Audio Section */}
-      <section id="audio" className="py-20 text-white">
+      <section id="audio" className="py-20 text-white bg-black bg-opacity-10 border-b border-black border-opacity-30">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-12">Audio</h2>
           <p className="text-xl text-center font-serif max-w-2xl mx-auto">
