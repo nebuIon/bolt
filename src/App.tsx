@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-400 via-purple-500 to-blue-500">
+    <div className="min-h-screen bg-gradient-to-br from-yellow-400 via-yellow-500 to-black">
       {/* Navigation */}
-      <nav className="bg-white bg-opacity-10 backdrop-blur-md fixed w-full z-10">
+      <nav className="bg-black bg-opacity-80 backdrop-blur-md fixed w-full z-10">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center">
@@ -13,11 +13,11 @@ function App() {
               <span className="text-white text-2xl font-bold">Karim</span>
             </div>
             <div className="hidden md:flex space-x-8">
-              <a href="#services" className="text-white hover:text-blue-200 transition-colors">Services</a>
-              <a href="#websites" className="text-white hover:text-blue-200 transition-colors">Websites</a>
-              <a href="#monetization" className="text-white hover:text-blue-200 transition-colors">Monetization</a>
-              <a href="#design" className="text-white hover:text-blue-200 transition-colors">Design</a>
-              <a href="#audio" className="text-white hover:text-blue-200 transition-colors">Audio</a>
+              <a href="#services" className="text-white hover:text-yellow-300 transition-colors">Services</a>
+              <a href="#websites" className="text-white hover:text-yellow-300 transition-colors">Websites</a>
+              <a href="#monetization" className="text-white hover:text-yellow-300 transition-colors">Monetization</a>
+              <a href="#design" className="text-white hover:text-yellow-300 transition-colors">Design</a>
+              <a href="#audio" className="text-white hover:text-yellow-300 transition-colors">Audio</a>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@ function App() {
               href="https://t.me/konagy"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-colors inline-block"
+              className="bg-yellow-400 text-black px-8 py-3 rounded-full font-semibold hover:bg-yellow-300 transition-colors inline-block"
             >
               Contact Me
             </a>
@@ -47,7 +47,7 @@ function App() {
       </header>
 
       {/* Websites Section */}
-      <section id="websites" className="py-20 text-white bg-black bg-opacity-20 border-t border-b border-black border-opacity-30">
+      <section id="websites" className="py-20 text-white bg-black bg-opacity-80">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-12">Websites</h2>
           <div className="max-w-4xl mx-auto">
@@ -62,7 +62,7 @@ function App() {
                 href="https://nebuion.github.io/feyk-cofee/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white bg-opacity-20 hover:bg-opacity-30 px-6 py-3 rounded-lg transition-all transform hover:scale-105"
+                className="bg-yellow-400 text-black px-6 py-3 rounded-lg transition-all transform hover:scale-105 hover:bg-yellow-300"
               >
                 Coffee Shop Website
               </a>
@@ -70,7 +70,7 @@ function App() {
                 href="https://nebuion.github.io/feyk-magaz-krossy/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white bg-opacity-20 hover:bg-opacity-30 px-6 py-3 rounded-lg transition-all transform hover:scale-105"
+                className="bg-yellow-400 text-black px-6 py-3 rounded-lg transition-all transform hover:scale-105 hover:bg-yellow-300"
               >
                 Sneakers Store
               </a>
@@ -80,7 +80,7 @@ function App() {
       </section>
 
       {/* Monetization Section */}
-      <section id="monetization" className="py-20 text-white bg-black bg-opacity-10 border-b border-black border-opacity-30">
+      <section id="monetization" className="py-20 text-white bg-black bg-opacity-70">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-12">Monetization</h2>
           <p className="text-xl text-center font-serif max-w-2xl mx-auto">
@@ -90,7 +90,7 @@ function App() {
       </section>
 
       {/* Design Section */}
-      <section id="design" className="py-20 text-white bg-black bg-opacity-20 border-b border-black border-opacity-30">
+      <section id="design" className="py-20 text-white bg-black bg-opacity-80">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-12">Design</h2>
           <div className="max-w-4xl mx-auto">
@@ -107,7 +107,7 @@ function App() {
       </section>
 
       {/* Audio Section */}
-      <section id="audio" className="py-20 text-white bg-black bg-opacity-10 border-b border-black border-opacity-30">
+      <section id="audio" className="py-20 text-white bg-black bg-opacity-70">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-12">Audio</h2>
           <p className="text-xl text-center font-serif max-w-2xl mx-auto">
@@ -119,7 +119,7 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-black bg-opacity-30 text-white py-8">
+      <footer className="bg-black text-white py-8">
         <div className="container mx-auto px-6 text-center">
           <div className="flex justify-center items-center mb-4">
             <img src="https://i.postimg.cc/ncRNY8Yr/194-20250531164336.png" alt="Logo" className="h-10 w-10" />
@@ -129,7 +129,7 @@ function App() {
             href="https://t.me/konagy"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-200 hover:text-blue-100 mt-2 inline-block"
+            className="text-yellow-400 hover:text-yellow-300 mt-2 inline-block"
           >
             Contact on Telegram
           </a>
