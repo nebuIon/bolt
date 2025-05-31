@@ -47,11 +47,11 @@ function App() {
       </header>
 
       {/* Websites Section */}
-      <section id="websites" className="py-20 text-white bg-black mx-4 rounded-lg">
+      <section id="websites" className="py-20 text-white mx-4 rounded-lg backdrop-blur-sm bg-black/50">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12">Websites</h2>
+          <h2 className="text-4xl font-bold text-center mb-12" style={{ fontFamily: 'Playfair Display' }}>WEBSITES</h2>
           <div className="max-w-4xl mx-auto">
-            <p className="text-xl text-center mb-12 font-serif">
+            <p className="text-xl text-center mb-12" style={{ fontFamily: 'Cormorant Garamond' }}>
               🌐 Разработка личных сайтов<br />
               — Лендинги, интернет-магазины, портфолио, бизнес-сайты — под ключ<br />
               — Адаптивный дизайн, удобная структура, быстрая загрузка<br />
@@ -80,21 +80,21 @@ function App() {
       </section>
 
       {/* Monetization Section */}
-      <section id="monetization" className="py-20 text-white bg-black mx-4 my-8 rounded-lg">
+      <section id="monetization" className="py-20 text-white mx-4 my-8 rounded-lg backdrop-blur-sm bg-black/50">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12">Monetization</h2>
-          <p className="text-xl text-center font-serif max-w-2xl mx-auto">
+          <h2 className="text-4xl font-bold text-center mb-12" style={{ fontFamily: 'Playfair Display' }}>MONETIZATION</h2>
+          <p className="text-xl text-center" style={{ fontFamily: 'Cormorant Garamond' }}>
             💰 Подключу монетизацию к вашим соцсетям или продам готовую!
           </p>
         </div>
       </section>
 
       {/* Design Section */}
-      <section id="design" className="py-20 text-white bg-black mx-4 my-8 rounded-lg">
+      <section id="design" className="py-20 text-white mx-4 my-8 rounded-lg backdrop-blur-sm bg-black/50">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12">Design</h2>
+          <h2 className="text-4xl font-bold text-center mb-12" style={{ fontFamily: 'Playfair Display' }}>DESIGN</h2>
           <div className="max-w-4xl mx-auto">
-            <p className="text-xl text-center font-serif">
+            <p className="text-xl text-center" style={{ fontFamily: 'Cormorant Garamond' }}>
               🎨 Личный стиль и бренд<br />
               — Логотипы, оформление соцсетей и страниц<br />
               — Дизайн товаров, обложек, баннеров, шапок<br /><br />
@@ -107,10 +107,10 @@ function App() {
       </section>
 
       {/* Audio Section */}
-      <section id="audio" className="py-20 text-white bg-black mx-4 my-8 rounded-lg">
+      <section id="audio" className="py-20 text-white mx-4 my-8 rounded-lg backdrop-blur-sm bg-black/50">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12">Audio</h2>
-          <p className="text-xl text-center font-serif max-w-2xl mx-auto">
+          <h2 className="text-4xl font-bold text-center mb-12" style={{ fontFamily: 'Playfair Display' }}>AUDIO</h2>
+          <p className="text-xl text-center" style={{ fontFamily: 'Cormorant Garamond' }}>
             🎵 Создание песен и текстов<br />
             — Напишу уникальный текст для вашей песни<br />
             — Поставлю музыку на ваши слова и создам полноценную композицию
